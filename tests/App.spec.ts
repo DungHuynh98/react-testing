@@ -2,7 +2,7 @@ import { test, expect, type Page } from '@playwright/test';
 
 test.describe('Get list users', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto("http://localhost:3000")
+    await page.goto("http://127.0.0.1:3000")
   });
 
   test('should display the get users button', async ({ page }) => {
