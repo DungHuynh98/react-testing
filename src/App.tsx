@@ -24,7 +24,7 @@ function App() {
             cursor: "pointer",
           }}
         >
-          Get users
+          Show users
         </button>
       )}
     </div>

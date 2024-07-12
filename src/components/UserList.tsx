@@ -20,7 +20,7 @@ function UserList(): JSX.Element {
 
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '20px' }}>
-      <h1>List Data</h1>
+      <h1>List Users</h1>
       <ul style={{ listStyleType: 'none', padding: '0' }}>
         {data.map((item) => (
           <UserItem key={item.id} user={item} />
